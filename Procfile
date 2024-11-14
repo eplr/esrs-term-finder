@@ -1,6 +1,4 @@
 web: gunicorn gettingstarted.wsgi
-torch==1.10.0
-transformers==4.11.3
 
 # Uncomment this `release` process if you are using a database, so that Django's model
 # migrations are run as part of app deployment, using Heroku's Release Phase feature:
